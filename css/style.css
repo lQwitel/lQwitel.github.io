@@ -21,6 +21,7 @@ a{
 	box-shadow: 0 0 50px black;
 	-moz-box-shadow: 0 0 50px black;
 	-webkit-box-shadow: 0 0 50px black;
+	background:#fff;
 }
 .container {
 	width:1300px;
@@ -144,14 +145,17 @@ a{
 	width:1300px;
 	margin:0 auto;
 	background-color:#fff;
-	height:2500px;
+	min-height:2500px;
 }
 #slider{
-	padding-top:70px;
+	margin-top:70px;
+	height:669px;
+	overflow-bottom:hidden;
 }
 .item {
 	display:inline-block;   
 	position:relative;
+	z-index:-1;
 }
 .slidertext {
 	display:inline-block;
@@ -184,7 +188,7 @@ a{
 	color:#2a398c;
 }
 #newm {
-	width:764.4px;
+	min-width:764.4px;
 	margin-left:68px;
 	margin-top:80px;
 	float:left;
@@ -204,6 +208,7 @@ a{
 }
 #ramka {
 	height:1600px;
+	width:763px;
 	margin-top:37px;
 	border:1px solid #333;
 }
@@ -215,6 +220,7 @@ a{
 }
 .new {
 	min-height:300px;
+	max-height:400px;
 	margin-top:100px;
 	position:relative;
 }
@@ -248,20 +254,35 @@ a{
 	width:300px;
 	margin-left:auto;
 	margin-right:auto;
+	max-height:98px;
+	overflow:hidden;
+}
+.textnext-new {
+	color:black;
+	text-align:center;
+	margin-top:12px;
+	font-size:20px;
+}
+.textnext-new-h {
+	transition:0.2s;
+}
+.textnext-new-h:hover {
+	color:#3a50cf;
 }
 .paging {
-	height:55px;
+	height:57px;
 	width:400px;
 	margin-top:1530px;
 	margin-right:auto;
 	margin-left:auto;
+	overflow:hidden;
 }
 .next {
 	width:100px;
-	height:54px;
-	line-height:54px;
+	height:53px;
+	line-height:53px;
 	border:1px solid #333;
-	float:left;
+	display:inline-block;
 	text-align:center;
 	margin-left:10px;
 	transition:0.3s;
@@ -272,10 +293,10 @@ a{
 }
 .namber {
 	width:54px;
-	height:54px;
-	line-height:54px;
+	height:53px;
+	line-height:53px;
 	border:1px solid #333;
-	float:left;
+	display:inline-block;
 	text-align:center;
 	margin-left:10px;
 	transition:0.3s;
