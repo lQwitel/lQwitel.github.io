@@ -5,6 +5,9 @@
 body {
 	background-image:url(../img/backgraund.jpg);
 	background-attachment:fixed;
+	width:1300px;
+	margin-left:auto;
+	margin-right:auto;
 }
 a{
 	display:inline-block;
@@ -15,16 +18,11 @@ a{
 	margin-top:100px;
 }
 #stranica {
-	width:1300px;
-	margin-left:auto;
-	margin-right:auto;
 	box-shadow: 0 0 50px black;
 	-moz-box-shadow: 0 0 50px black;
 	-webkit-box-shadow: 0 0 50px black;
-	background:#fff;
 }
 .container {
-	width:1300px;
 	margin:0 auto;
 	background-image:url(../img/backgraundshapka3.jpg);
 	height:253px;
@@ -49,6 +47,7 @@ a{
 	margin:0:;
 	font-size:0;
 	overflow:hidden;
+	height:89px;
 }
 #menu>ul>li{
 	display:inline-block;
@@ -98,10 +97,9 @@ a{
 #razdelitel {
 	background-color:black;
 	height:1px;
-	width:1300px;
-	margin-top:253px;
 	position:absolute;
 	z-index:10;
+	width:1300px;
 }
 #logo {
 	height:145px;
@@ -133,7 +131,6 @@ a{
 	float:right;
 }
 #ltext {
-	height:;
 	font-size:90px;
 	text-align:center;
 	line-height:90px;
@@ -142,13 +139,11 @@ a{
 	border-bottom: 14px solid #2a398c;
 }
 #content {
-	width:1300px;
+	padding-top:70px;
 	margin:0 auto;
 	background-color:#fff;
-	min-height:2500px;
 }
 #slider{
-	margin-top:70px;
 	height:669px;
 	overflow-bottom:hidden;
 }
@@ -186,6 +181,9 @@ a{
 }
 .textnext:hover {
 	color:#2a398c;
+}
+.content-news {
+	height:1830px;
 }
 #newm {
 	min-width:764.4px;
@@ -431,4 +429,16 @@ a{
 	color:#fff;
 	text-align:center;
 	font-size:40px;
+}
+.developing {
+	height: 867px;
+	position:relative;
+}
+.text-devolp {
+	display:inline-block;
+	position:absolute;
+	font-size:30px;
+	top:200px;
+	color:#fff;
+	text-align:center;
 }
