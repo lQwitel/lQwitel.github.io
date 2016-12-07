@@ -5,6 +5,7 @@
 body {
 	background-image:url(../img/backgraund.jpg);
 	background-attachment:fixed;
+	margin:0;
 }
 a{
 	display:inline-block;
@@ -13,9 +14,11 @@ a{
 }
 #page-wrapper {
 	margin-top:100px;
-    width:1300px;
+	width:1300px;
+	height: 2000px;
 	margin-left:auto;
 	margin-right:auto;
+	background-color: #fff;
 }
 #stranica {
 	box-shadow: 0 0 50px black;
@@ -143,7 +146,7 @@ a{
 	margin:0 auto;
 	background-color:#fff;
 }
-#slider{
+/*#slider{
 	height:669px;
 	overflow-bottom:hidden;
 }
@@ -181,8 +184,8 @@ a{
 }
 .textnext:hover {
 	color:#2a398c;
-}
-.content-news {
+	}*/
+/*.content-news {
 	height:1830px;
 }
 #newm {
@@ -416,8 +419,8 @@ a{
 }
 #zab:hover {
 	border-bottom: 1px solid #2a398c;
-}
-#footer {
+	}*/
+/*#footer {
 	background-color:#2a398c;
 	width:1000px;
 	height:110px;
@@ -441,15 +444,70 @@ a{
 	top:200px;
 	color:#fff;
 	text-align:center;
-}
+	}*/
 
-/*CSS Mobail*/
+	/*CSS Mobail*/
 
-@media only screen 
-    and (min-device-width : 320px)
-    and (max-device-width : 720px) {
-        #page-wrapper {
-            width: 100%;
-        }
-}
-    
+	@media only screen 
+	and (min-device-width : 320px)
+	and (max-device-width : 1080px) {
+		#page-wrapper {
+			width: 100%;
+		}
+		.container {
+			height:253px;
+		}
+		#menu {
+			height:89px;
+			line-height:89px;
+			width:45%;
+			margin-right:60px;
+			margin-top:164px;
+			border:1px solid #000;
+		}
+		#menu>ul {
+			height:89px;
+		}
+		#menu>ul>li>a {
+			padding:0 15px;
+		}
+		.notekush:hover::before {
+			height:150px;
+			top:-30px;
+		}
+		#tekush:before {
+			height:150px;
+			top:-30px;
+		}
+		#razdelitel {
+			width:100%;
+		}
+		#logo {
+			height:130px;
+			width:36.5%;
+			margin-top:61.5px;
+			margin-left: 68px;
+		}
+		#logoz {
+			height:100%;
+			width:130px;
+			box-shadow: 0 0 20px black;
+		}
+		#IT {
+			font-size:90px;
+			line-height:76px;
+			margin-top:30px;
+		}
+		#logot{
+			width:224px;
+		}
+		#ltext {
+			font-size:90px;
+			line-height:76px;
+			margin-top:30px;
+			margin-right:45px;
+			border-bottom: 14px solid #2a398c;
+		}
+		#content {
+			padding-top:70px;
+		}   
