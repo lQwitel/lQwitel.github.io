@@ -5,9 +5,6 @@
 body {
 	background-image:url(../img/backgraund.jpg);
 	background-attachment:fixed;
-	width:1300px;
-	margin-left:auto;
-	margin-right:auto;
 }
 a{
 	display:inline-block;
@@ -16,6 +13,9 @@ a{
 }
 #page-wrapper {
 	margin-top:100px;
+    width:1300px;
+	margin-left:auto;
+	margin-right:auto;
 }
 #stranica {
 	box-shadow: 0 0 50px black;
@@ -448,10 +448,8 @@ a{
 @media only screen 
     and (min-device-width : 320px)
     and (max-device-width : 720px) {
-        .body {
+        #page-wrapper {
             width: 100%;
-            margin-right: 0;
-            margin-left: 0;
         }
 }
     
