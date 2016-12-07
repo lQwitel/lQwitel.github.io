@@ -185,7 +185,10 @@ a{
 .textnext:hover {
 	color:#2a398c;
 	}
-/*.content-news {
+
+
+
+.content-news {
 	height:1830px;
 }
 #newm {
@@ -419,7 +422,7 @@ a{
 }
 #zab:hover {
 	border-bottom: 1px solid #2a398c;
-	}*/
+	}
 /*#footer {
 	background-color:#2a398c;
 	width:1000px;
@@ -456,6 +459,7 @@ a{
 		}
 		.container {
 			height:253px;
+            background-image:url(../img/backgraundshapka3-m.jpg);
 		}
 		#menu {
 			height:89px;
