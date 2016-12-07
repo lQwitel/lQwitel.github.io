@@ -512,12 +512,10 @@ a{
 		#content {
 			padding-top:30px;
 		}
-        
-        
         .slidertext {
-	        font-size:27px;
+	        font-size:30px;
 	        top:250px;
-	        left:600px;
+	        left:575px;
         }
         .readnext {
 	        top:525px;
