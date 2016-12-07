@@ -450,6 +450,8 @@ a{
     and (max-device-width : 720px) {
         .body {
             width: 100%;
+            margin-right: 0;
+            margin-left: 0;
         }
 }
     
