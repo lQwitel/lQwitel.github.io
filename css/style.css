@@ -509,28 +509,21 @@ a{
 			margin-right:45px;
 			border-bottom: 14px solid #2a398c;
 		}
-        
 		#content {
 			padding-top:30px;
-		}   
-        #slider{
-	        height:669px;
-	        overflow-bottom:hidden;
-        }
+		}
+        
+        
         .slidertext {
-	        display:inline-block;
-	        position:absolute;
-	        font-size:50px;
+	        font-size:27px;
 	        top:250px;
 	        left:600px;
         }
         .readnext {
-	        position:absolute;
-	        top:570px;
-	        left:900px;
+	        top:525px;
+	        left:665px;
         }
         .textnext {
-	        font-size:40px;
-	        transition:0.5s;
+	        font-size:35px;
         }
 }
