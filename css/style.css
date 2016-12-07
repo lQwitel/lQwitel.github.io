@@ -588,7 +588,11 @@ a{
             line-height:53px;
             margin-left:10px;
         }
+        
+        
+        
         #saytbar {
+            display: none;
             width:349.7px;
             height:1000px;
             margin-left:56.8px;
@@ -663,6 +667,9 @@ a{
             margin-left:10px;
             margin-top:9px;
         }
+        
+        
+        
         #footer {
 	        width:95%;
         }
