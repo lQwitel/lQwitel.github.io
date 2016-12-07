@@ -1,7 +1,8 @@
 "use strict";
 jQuery('document').ready(function(){
 	jQuery('#slider').slick({
-			autoplay:true
+			autoplay:true,
+            arrows:false
 	});
 });
 document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +

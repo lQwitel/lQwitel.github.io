@@ -146,7 +146,7 @@ a{
 	margin:0 auto;
 	background-color:#fff;
 }
-/*#slider{
+#slider{
 	height:669px;
 	overflow-bottom:hidden;
 }
@@ -184,7 +184,7 @@ a{
 }
 .textnext:hover {
 	color:#2a398c;
-	}*/
+	}
 /*.content-news {
 	height:1830px;
 }
@@ -509,6 +509,28 @@ a{
 			margin-right:45px;
 			border-bottom: 14px solid #2a398c;
 		}
+        
 		#content {
 			padding-top:70px;
 		}   
+        #slider{
+	        height:669px;
+	        overflow-bottom:hidden;
+        }
+        .slidertext {
+	        display:inline-block;
+	        position:absolute;
+	        font-size:50px;
+	        top:250px;
+	        left:600px;
+        }
+        .readnext {
+	        position:absolute;
+	        top:570px;
+	        left:900px;
+        }
+        .textnext {
+	        font-size:40px;
+	        transition:0.5s;
+        }
+}
