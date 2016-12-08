@@ -616,6 +616,7 @@ a {
         line-height: 70px;
         margin-left: 25%;
         margin-right: 25%;
+        box-shadow: 0 0 20px black;
     }
     #ramka {
         width: 100%;
