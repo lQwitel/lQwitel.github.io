@@ -1,59 +1,69 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta class="viewport" content="width=device-width,initial-scale=1.0">
-	<title>IT Блог</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
-	<link rel="shortcut icon" href="img/icon-adress.png" type="image/png">
-</head>
-<body>
-	<div id="page-wrapper">
-		<div id="stranica">
+<div id="bgg" style="display:none;">
+    <html>
 
+    <head>
+        <meta charset="utf-8">
+        <meta class="viewport" content="width=device-width,initial-scale=1.0">
+        <title>IT Блог</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
+        <link rel="shortcut icon" href="img/icon-adress.png" type="image/png">
+    </head>
 
-			<!-- Шапка -->
-			<header id="header">
-				<div class="container">
-					<div id="menu">
-						<ul>
-							<li><a class="notekush" href="index.html">Главная</a></li>
-							<li><a class="notekush" href="categories.html">Категории</a></li>
-							<li><a class="notekush" href="about.html">О нас</a></li>
-							<li><a id="tekush" href="contacts.html">Контакты</a></li>
-						</ul>
-					</div>
-					<div id="razdelitel"></div>
-					<div id="logo">
-						<div id="logoz"><div id="IT">IT</div></div>
-						<div id="logot">
-							<div id="ltext">Блог</div>
-							<div id="liniy"></div>
-						</div>
-					</div>
-				</div>
-			</header>
+    <body onload="shb();">
+        <script>
+            function shb() {
+                $('#bgg').fadeIn(1000);
+            };
+        </script>
+        <div id="page-wrapper">
+            <div id="stranica">
+                <!-- Шапка -->
+                <header id="header">
+                    <div class="container">
+                        <div id="menu">
+                            <ul>
+                                <li><a class="notekush" href="index.html">Главная</a></li>
+                                <li><a class="notekush" href="categories.html">Категории</a></li>
+                                <li><a class="notekush" href="about.html">О нас</a></li>
+                                <li><a id="tekush" href="contacts.html">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div id="razdelitel"></div>
+                        <div id="logo">
+                            <div id="logoz">
+                                <div id="IT">IT</div>
+                            </div>
+                            <div id="logot">
+                                <div id="ltext">Блог</div>
+                                <div id="liniy"></div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
 
-			<div id="razdelitel"></div>
-			<!-- Контент -->
-			<div id="content">
-				<div class="developing">
-					<img src="img/devolp.jpg"/>
-					<div class="text-devolp">
-						<h1>Извините, страница находится в разработке</h1>
-						<p>Уважаемые посетители, данная страница нашего сайта сейчас находится в разработке. Мы просим вас вернутся сюда немногим позднее.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="footer">
-		<div id="footer">2017<sup><small>TM</small></sup> </div>
-	</div>
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<script type="text/javascript" src="slick/slick/slick.min.js"></script>
-</body> 
-</html>
+                <div id="razdelitel"></div>
+                <!-- Контент -->
+                <div id="content">
+                    <div class="developing">
+                        <img src="img/devolp.jpg" />
+                        <div class="text-devolp">
+                            <h1>Извините, страница находится в разработке</h1>
+                            <p>Уважаемые посетители, данная страница нашего сайта сейчас находится в разработке. Мы просим вас вернутся сюда немногим позднее.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div id="footer">2017<sup><small>TM</small></sup> </div>
+        </div>
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+    </body>
+
+    </html>
+</div>
