@@ -1,0 +1,131 @@
+* {
+    
+}
+input:focus {
+    outline:none;
+}
+body {
+    margin: 0;
+    min-width: 1200px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    padding: 0;
+}
+#stranica {
+  background-color: #fafafa;
+    overflow: hidden;
+}
+
+/*-----------------*/
+
+#head {
+    padding-top: 270px;
+    height: 70px;
+    background-image: url(../img/head-img.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    box-shadow: 0 5px 20px -5px black;
+}
+#Search {
+    width: 700px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    border-radius: 5px 5px;
+    background-color: #fff;
+    transition: box-shadow 200ms;
+    display: block;
+    font-size: 30px;
+    color: #363636;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    background-image: url(../img/search.png);   
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: 665px; 
+    padding-left: 20px;    
+}
+#Search:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+     border:none;
+}
+#Search:focus {
+     box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+     border:none;
+}
+
+/*-----------------*/
+
+#content {
+    height: 495px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#right {
+    width: 85%;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+}
+
+#header {
+    font-size: 100px;
+    text-align: center;
+}
+
+#left {
+    width: 15%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+}
+
+.punct-menu-div {
+    height: 50px;
+    width: 90%;
+    line-height: 50px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.punkt-menu {
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+.punct-menu-div:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+/*-----------------*/
+
+#footer {
+    height: 150px;
+    background-image: url(../img/footer.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    box-shadow: 0 0px 20px black;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1080px) {
+    #left {
+        display: none;
+    }
+    #right {
+        width: 100%;
+    }
+    #content {
+        height: 720px;
+        padding: 200px;
+    }
+}
+
