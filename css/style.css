@@ -26,6 +26,7 @@ a {
     box-shadow: 0 0 50px black;
     -moz-box-shadow: 0 0 50px black;
     -webkit-box-shadow: 0 0 50px black;
+    background-color: #fff;
 }
 
 .container {
@@ -524,7 +525,7 @@ a {
 
 /*CSS Mobail*/
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 1080px) {
+@media (min-width: 320px) and (max-width: 1080px) {
     #page-wrapper {
         width: 100%;
     }
@@ -737,4 +738,27 @@ a {
     .developing {
         overflow: hidden;
     }
+}
+
+/*---------------------------------------------*/
+
+
+#name-about {
+    text-align: center;
+    font-size: 70px;
+}
+
+#url-demo-site {
+    background-color: #fff;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+
+.item-url {
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.item-url>a:hover {
+    color: #2a398c;
 }
