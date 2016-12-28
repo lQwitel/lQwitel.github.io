@@ -201,7 +201,7 @@ ul {
     }
     
     .item{
-    font-size: 1.5em;
+        font-size: 1.5em;
     }
     
     #footer {
@@ -209,7 +209,7 @@ ul {
     }
     
     .menu-line {
-    height: 2px;
+        height: 2px;
     }
 }
 
@@ -234,4 +234,154 @@ ul {
     .menu-line {
         display: none;
     }
+}
+
+/* Index*/
+
+
+#bar-index {
+    margin: 0 10px;
+    padding: 10px;
+    height: 200px;
+    background-color: #73d9ce;
+}
+
+#name-index {
+    color: #fff;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.text-index {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*Useful*/
+
+
+#bar-useful {
+    margin: 0 10px;
+    padding: 10px;
+    height: 200px;
+    background-color: #73d9ce;
+}
+
+#naem-useful {
+    color: #fff;
+    text-align: center;
+    font-size: 3.5em;
+}    
+
+#list-syts {
+    padding: 0;
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+
+.item-list-syts {
+    margin: 5px 0;
+}
+
+.url-item-syts {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.url-item-syts:hover {
+    color: #307770;
+}
+
+.url-item-syts:hover .line-url {
+    width: 100%;
+}
+
+.line-url {
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: 2s;
+    transition-property: ;
+}
+
+/*---------------------------------*/
+
+#name-help {
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+}
+
+#mail {
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+#url-mail {
+    color: #fff;
+    transition: 0.5s;
+}
+
+#url-mail:hover #line-mail {
+    color: #307770;
+    width: 100%;
+}
+
+#url-mail:hover {
+    color: #307770;
+}
+
+#line-mail {
+    width: 0;
+    background-color: #fff;
+    height: 3px;
+    margin: 0 auto;
+    transition: 2s;
+}
+
+@media (max-width: 520px) {
+    #name-help {
+        font-size: 2.5em;
+    }
+
+    #mail {
+        font-size: 2.5em;
+    }
+    
+    #naem-useful {
+        font-size: 3em;
+    } 
+}
+
+@media (max-width: 705px) {
+    #name-index {
+        font-size: 3em;
+    }
+
+    .text-index {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 615px) {
+    #name-index {
+        font-size: 2.5em;
+    }
+
+    .text-index {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 450px) {
+    #name-index {
+        font-size: 2em;
+    }
+
+    .text-index {
+        font-size: 1.4em;
+    }    
 }
