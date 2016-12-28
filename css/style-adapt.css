@@ -56,8 +56,16 @@ ul {
     transition: 0.3s;
 }
 
-.item>a:hover {
-    color: #b7b5e2;
+.item:hover .menu-line {
+    width: 100%;
+}
+
+.menu-line {
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: 0.3s;
+    margin: 0 auto;
 }
 
 /*----------------------*/
@@ -199,6 +207,10 @@ ul {
     #footer {
         margin-top: 10px;
     }
+    
+    .menu-line {
+    height: 2px;
+    }
 }
 
 @media (max-width:450px) {
@@ -212,10 +224,14 @@ ul {
     }
     
     .item{
-    font-size: 1.3em;
+    font-size: 1.15em;
     }
     
     #footer {
         margin-top: 7px;
+    }
+    
+    .menu-line {
+        display: none;
     }
 }
